@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+python-dotenv
+openai
+python-multipart
+reportlab
+python-docx
+pymupdf
+email validator

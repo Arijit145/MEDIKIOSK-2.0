@@ -1,0 +1,34 @@
+﻿# MediKiosk Git Ignore
+
+# Secrets
+.env
+*.env
+**/.env
+**/*.env
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+
+# Patient uploads and generated files
+uploads/
+**/uploads/
+
+# Generated documents
+*.pdf
+*.docx
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
